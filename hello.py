@@ -14,8 +14,6 @@ def main():
     argp.add_argument("--output-dir", default=None)
     args = argp.parse_args()
 
-    print("Hello from music!")
-
     if args.input_dir:
         input_dir = Path(args.input_dir)
         input_root = PHONE_MUSIC_ROOT
