@@ -11,3 +11,6 @@ wheels/
 
 # Jupyter Notebook
 *.ipynb
+
+# VS Code
+.vscode/
