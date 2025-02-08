@@ -16,6 +16,5 @@ def change_prefix(
                 lambda x: not x.startswith("#"),
                 lambda x: str(output_root / get_path(x).relative_to(input_root)),
             )
-            breakpoint()
             with (output_dir / p.name).open("w") as f2:
                 f2.writelines(res)
